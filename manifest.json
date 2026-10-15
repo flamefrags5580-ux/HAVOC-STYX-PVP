@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "HAVOC STYX PvP System",
+    "description": "Complete PvP system: Duels, FFA, Clans, Clan Wars, Kits, Arenas, Admin tools",
+    "uuid": "3a8c0d2f-55c0-4a7e-9f3b-0c1f9a6f74f1",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 26, 0]
+  },
+  "modules": [
+    {
+      "type": "scripting",
+      "description": "HAVOC STYX server scripts",
+      "uuid": "d7a79b30-2c6c-4b46-b2a1-d5a3b0a9f9d6",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "metadata": {
+    "authors": ["HAVOC STYX Team"],
+    "url": "https://github.com/flamefrags5580-ux/HAVOC-STYX-PVP"
+  },
+  "dependencies": [
+    {
+      "uuid": "e6a5b9a1-3a2d-4f34-9a90-1b2c3d4e5f60",
+      "version": [1, 0, 0]
+    }
+  ]
+}
